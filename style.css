@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+}
+body {
+
+background: #ddd;
+font-size: 100%;
+}
+
+
+/*NOTE: padding shorthand works like a clock*/
+
+main {
+	background: #fff;
+	width: 80%;
+	min-width: 300px;
+	max-width: 800px;
+	margin: 0 auto;
+	padding:  36px 24px;
+}
+/*All articles*/
+article {
+	font-family: 'Merriweather', serif;
+	padding: 0 24px;
+}
+article h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	color:#2F9A84;
+	
+}
+/*This selects the article element with a class of intro*/
+.intro img {
+	width: 200px;
+	height: auto;
+	float: left;
+	margin-right: 16px;
+	
+}
+
+article p {
+	font-size: 1.25em;
+	line-height: 1.66em;
+	
+}
+.video {
+	width: 560px; 
+	margin: 0 auto;
+}
